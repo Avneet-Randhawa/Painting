@@ -35,12 +35,12 @@ function my_mousemove(e){
     last_x_position = current_x_position;
     last_y_position = current_y_position;
 }
-ctx.addEventListener("mouseleave",my_mouseleave);
+canvas.addEventListener("mouseleave",my_mouseleave);
 function my_mouseleave(e){
     mouse_event="mouseLeave";
 }
 
-ctx.addEventListener("mouseup",my_mouseup);
+canvas.addEventListener("mouseup",my_mouseup);
 function my_mouseup(e){
     mouse_event="mouseUp";
 }
